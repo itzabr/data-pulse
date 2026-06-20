@@ -1,0 +1,47 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+out/
+bin/
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# Logs
+boot.log
+boot_err.log
+
+# Spark & Python
+__pycache__/
+*.py[cod]
+*$py.class
+scripts/spark/output/
+scripts/spark/data/
+*.parquet
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS
+.DS_Store
+Thumbs.db
